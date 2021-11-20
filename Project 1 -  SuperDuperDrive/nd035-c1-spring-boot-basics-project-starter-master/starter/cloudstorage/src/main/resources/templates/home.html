@@ -217,8 +217,8 @@
                                         <div class="btn-group rounded border">
 
                                             <!--this will trigger clicking on the  credential-password-view-button-->
-<!--                                            <a type="button" id="credential-password-view" class="btn bi bi-eye-slash btn-secondary btn-light"> View</a>-->
-<!--                                            <a type="button" id="credential-password-view-button" class="d-none" th:attr="onclick='displayPassword(\'' +${@credentialService.decryptPassword(__${credential.credentialid}__)}+ '\', \'' + ${credential.password} + '\' , \'' + ${credential.credentialid}+ '\');'"> </a>-->
+                                            <a type="button" id="credential-password-view" class="btn bi bi-eye-slash btn-secondary btn-light"> View</a>
+                                            <a type="button" id="credential-password-view-button" class="d-none" th:attr="onclick='displayPassword(\'' +${@credentialService.decryptPassword(__${credential.credentialid}__)}+ '\', \'' + ${credential.password} + '\' , \'' + ${credential.credentialid}+ '\');'"> </a>
 <!--                                            <a type="button" id="viewCredential" th:href="@{'/home/decryptPassword/'+${credential.credentialid}}" class="btn bi bi-eye-slash btn-secondary btn-light"> View</a>-->
 
 <!--                                            <button type="button" class="btn bi bi-pencil-square btn-secondary btn-light" th:attr="onclick='showCredentialModal(\'' + ${credential.credentialid}+ '\' , \'' +${credential.url}+ '\', \'' +${credential.username}+ '\' , \'' +${@credentialService.decryptPassword(__${credential.credentialid}__)}+ '\');'"> Edit</button>-->
