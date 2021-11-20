@@ -128,7 +128,7 @@ You aren't required to understand hashing or encryption and that's why your tech
 
 All of us here at Super*Duper*Drive wish you good luck with the project!
 
-#Start Using
+# Start Using
 Download or clone the project 
 
 **Created test user**: username "root" and password "root0000"
