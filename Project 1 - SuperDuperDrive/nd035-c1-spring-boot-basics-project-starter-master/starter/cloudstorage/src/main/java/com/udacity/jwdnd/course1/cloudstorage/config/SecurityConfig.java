@@ -58,10 +58,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                     .invalidateHttpSession(true)
                     .clearAuthentication(true)
                     .logoutSuccessUrl("/login?logout")
-                    .permitAll();
+                    .permitAll()
+                    .and()
 
-                http.csrf().disable();
-                http.headers().frameOptions().disable();
+
+                //enables accessing the h2 db when security is configured
+                .csrf().disable()
+                .headers().frameOptions().disable();
     }
 
 }
